@@ -1,0 +1,159 @@
+
+section{
+    background: #f2f2f2;
+    /* padding: 200px 20px; */
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 25px;
+
+    /* justify-content: space-around; */
+}
+.form-container{
+    background: #f2f2f2;
+    border: solid 2px #773cd4 ;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 125px;
+}
+@media screen and (max-width: 860px) {    
+    .form-container{
+     width: 500px;        
+    }
+    .one .items{
+        width: 50px;
+    }
+    .one input{
+        width: 50px;
+
+    }
+}
+.form-container span{
+    width: 200px;    
+    background: #773cd4;
+    color: white;
+    padding: 0 10px;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.btn-s{
+    width: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.form-container .btn-s >.btn-signin{
+    text-align: center;
+    /* position: relative; */
+    border-radius: 20px 20px 0px 0px;
+    padding: 15px;
+    font-size: 20px;
+    background: #773cd4 ;
+    color: #ffffff ;
+}
+.one{
+    background: #f2f2f2;
+    /* width: 100%; */
+    padding: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.one input{
+    /* width: 100px; */
+    color:#3cc;
+    padding: 5px 5px;
+    border-radius: 0% 60px 60px 0%;
+    border: none;
+    text-decoration: none;
+}
+.one .items{
+    border-radius: 0% 60px 60px 0%;
+    background: white;
+    display: flex;
+    width: 300px;
+    padding:  5px 20px ;
+    margin: 15px 20px;
+}
+.one .items i{
+    padding: 0 5px;
+}
+.one .items label{
+    
+    color:#3cc;
+    border-radius: 0% 60px 60px 0%;
+    /* margin: 10px 0; */
+    padding:  5px 5px ;
+    background: white;
+
+}
+
+/* form >.btn-s{
+    width: 200px;
+}
+form >.btn-s button{
+    border-radius: 40px 40px 40px 40px;
+    width: 200px;
+    font-size: 25px;
+    padding: 5px;
+    background: #773cd4 ;
+    color: #ffffff ;
+} */
+
+.one .gender {
+    color:#3cc;
+    width: 200px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+/* .one .gender label{
+    position: relative;
+	display: block;
+} */
+.one.gender > label input + i{
+    background: #3cc;
+    border:2px solid #3cc;
+    position: absolute; 
+    left: 0;
+    top: 0;
+   }
+.one .gender > label input + i{    
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    left: 15px;
+   }
+.two{
+    display: flex;
+    flex-direction: column;
+
+}
+.two input{
+    color:#3cc;
+    padding: 10px 10px;
+    border-radius: 0% 60px 60px 0%;
+    border: none;
+    text-decoration: none;
+}
+
+.two >label{
+    color:#3cc;
+    border-radius: 0% 60px 60px 0%;
+    margin: 10px 0;
+    background: white ;
+}

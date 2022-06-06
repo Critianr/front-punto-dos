@@ -1,0 +1,11 @@
+.btn-s{
+    width: 200px;
+}
+.btn-s button{
+    border-radius: 40px 40px 40px 40px;
+    width: 200px;
+    font-size: 25px;
+    padding: 5px;
+    background: #773cd4 ;
+    color: #ffffff ;
+}
